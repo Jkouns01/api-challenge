@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    text-align: center;
+    display: block;
+   
+}
+
+button{
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 0, 51);
+    border: none;
+    border-radius: 8px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   
+}
+#question-statement{
+    float: inline-start;
+    font: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    position:relative;
+}
+
+#questionOne {
+   margin: 20;
+   height: 200px;
+   width: 800px;
+    text-align: center;
+    padding: 0px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    position: relative;
+    display: none;
+
+}
+#questionOne h1{
+    float: inline-start;
+    font: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    position:relative;
+
+}
+#questionTwo {
+     margin: 20;
+     height: 200px;
+     width: 800px;
+     text-align: center;
+     padding: 0px;
+     border-style: solid;
+     border-width: 4px;
+     border-color: black;
+     position: relative;
+     display: none;
+     
+ }
+ #questionTwo h1{
+    float: inline-start;
+    font: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    position:relative;
+
+}
+
+#questionThree{
+    margin: 20;
+    height: 300px;
+    width: 800px;
+    text-align: center;
+    padding: 0px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    position: relative;
+    display: none;
+}
+#questionThree h1{
+   float: inline-start;
+   font: bold;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+   position:relative;
+
+}
+
+#questionFour {
+    margin: 20;
+    height: 300px;
+    width: 800px;
+    text-align: center;
+    padding: 0px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    position: relative;
+    display: none;
+}
+#questionFour h1{
+   float: inline-start;
+   font: bold;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+   position:relative;
+
+}
+
+
+#scores{
+    display: none;
+}
+
